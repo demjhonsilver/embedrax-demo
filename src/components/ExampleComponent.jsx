@@ -110,6 +110,26 @@ export const ExampleComponent = () => {
       <h2>Documentation</h2>
       <br></br>
 
+      <h5>url/link Paradigm:</h5>
+      <hr></hr>
+      <p><code> https://www.youtube.com/watch?v=xxxxxxxxxxx</code></p>
+      <p><code> https:/m.youtube.com/watch?v=xxxxxxxxxxx</code></p>
+      <p><code> https://www.youtube.com/shorts/xxxxxxxxxxx</code></p>
+      <p><code> https://youtube.com/shorts/xxxxxxxxxxx</code></p>
+      <p><code>https://youtube.com/shorts/xxxxxxxxxxx?si=xxxxxxxxxxxxxxxx</code></p>
+      <p><code>https://www.facebook.com/username/videos/xxxxxxxxxxxxxxxxx</code></p>
+      <p><code>https://www.instagram.com/reel/xxxxxxxxxxx</code></p>
+      <p><code>https://www.instagram.com/username/reel/xxxxxxxxxxx</code></p>
+      <p><code>https://twitter.com/i/status/xxxxxxxxxxxxxxxxxxx</code></p>
+      <p><code>https://twitter.com/username/status/xxxxxxxxxxxxxxxxxxx</code></p>
+      <p><code>https://www.tiktok.com/@username/video/xxxxxxxxxxxxxxxxxxxx</code></p> 
+      <p><code>https://www.dailymotion.com/video/xxxxxxx</code></p>
+      <p><code>https://vimeo.com/XXXXXXXXX</code></p>
+      
+      <hr></hr>
+
+      <br></br>
+
       <TabComponent />
       <Footer />
       <br></br>
