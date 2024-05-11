@@ -32,32 +32,8 @@ export const ExampleComponent = () => {
     return url.startsWith('http://') || url.startsWith('https://');
   };
 
-  const handleSave = () => {
-    localStorage.setItem('savedVideoUrl', videoUrl);
-    localStorage.setItem('savedWidth', width);
-    localStorage.setItem('savedHeight', height);
-  };
 
-  const handleClearStorage = () => {
-    localStorage.removeItem('savedVideoUrl');
-    localStorage.removeItem('savedWidth');
-    localStorage.removeItem('savedHeight');
-    setVideoUrl(''); // Clear the input fields
-    setWidth(854); // Reset width to default
-    setHeight(480); // Reset height to default
-  };
 
-  useEffect(() => {
-    // Load saved data from localStorage on component mount
-    const savedVideoUrl = localStorage.getItem('savedVideoUrl');
-    const savedWidth = localStorage.getItem('savedWidth');
-    const savedHeight = localStorage.getItem('savedHeight');
-    if (savedVideoUrl && savedWidth && savedHeight) {
-      setVideoUrl(savedVideoUrl);
-      setWidth(parseInt(savedWidth));
-      setHeight(parseInt(savedHeight));
-    }
-  }, []);
 
   return (
     <>
@@ -81,8 +57,9 @@ export const ExampleComponent = () => {
       />
       {error && <div style={{ color: 'red' }}>{error}</div>}
       <div ref={containerRef} className="embed-youtube-one-clip"></div>
-      <button onClick={handleSave}>Save</button>
-      <button onClick={handleClearStorage}>Clear Storage</button>
+
+
+
     </>
   );
 };
