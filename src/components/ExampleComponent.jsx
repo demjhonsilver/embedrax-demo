@@ -54,9 +54,9 @@ export const ExampleComponent = () => {
     <>
       <div className="row mb-3">
         <div className="col mt-3">
-          <label className="visually-hidden">Paste video URL here:</label>
+          <label className="visually-hidden">Paste video URL / Link here:</label>
           <div className="input-group">
-            <div className="input-group-text">Paste video URL here:</div>
+            <div className="input-group-text">Paste video URL / Link here:</div>
             <input
               type="text"
               value={videoUrl}
@@ -122,17 +122,18 @@ export const ExampleComponent = () => {
       <br></br>
       
    
-      <h2>Documentation</h2>
       <br></br>
 
-      <h5>url/link Paradigm:</h5>
+      <h5>url / link Paradigm:</h5>
       <hr></hr>
       <p><code> https://www.youtube.com/watch?v=xxxxxxxxxxx</code></p>
+      <p><code> https://youtube.com/watch?v=xxxxxxxxxxx</code></p>
       <p><code> https:/m.youtube.com/watch?v=xxxxxxxxxxx</code></p>
       <p><code> https://www.youtube.com/shorts/xxxxxxxxxxx</code></p>
       <p><code> https://youtube.com/shorts/xxxxxxxxxxx</code></p>
       <p><code>https://youtube.com/shorts/xxxxxxxxxxx?si=xxxxxxxxxxxxxxxx</code></p>
       <p><code>https://www.facebook.com/username/videos/xxxxxxxxxxxxxxxxx</code></p>
+      <p><code>https://www.instagram.com/p/xxxxxxxxxxx</code></p>
       <p><code>https://www.instagram.com/reel/xxxxxxxxxxx</code></p>
       <p><code>https://www.instagram.com/username/reel/xxxxxxxxxxx</code></p>
       <p><code>https://twitter.com/i/status/xxxxxxxxxxxxxxxxxxx</code></p>
