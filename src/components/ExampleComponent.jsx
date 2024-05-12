@@ -103,10 +103,25 @@ export const ExampleComponent = () => {
       <br></br>
       <br></br>
       <hr></hr>
+
+      <div className="col-lg-8 mx-auto"><div className="text-center">
+          <div className="text-left">  
+            <img
+              src="https://raw.githubusercontent.com/demjhonsilver/embedrax/main/img/logo.png"
+      
+              className="img-fluid"
+            />
+          </div>
+          </div>
+          </div>
+
+
+
       <br></br>
       <h1 style={{ textAlign:'center' }}>Embedrax</h1>
       <br></br>
-
+      
+   
       <h2>Documentation</h2>
       <br></br>
 

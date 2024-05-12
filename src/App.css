@@ -12,5 +12,6 @@
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   max-width: 1200px;
+  max-height: 700px;
   margin: auto; /* Center the entire container horizontally */
 }
